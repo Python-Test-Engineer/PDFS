@@ -27,7 +27,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-AUTH_USER_MODEL = "studybuddy.User"
 # Application definition
 
 INSTALLED_APPS = [
@@ -37,7 +36,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    "studybuddy.apps.StudybuddyConfig",
+   
 ]
 
 MIDDLEWARE = [
